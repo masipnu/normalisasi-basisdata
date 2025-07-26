@@ -41,7 +41,7 @@ Membuat database baru
 create database db_pelatihan;
 ```
 
-Menaktifkan `db_pelatihan`
+Mengaktifkan `db_pelatihan`
 ```sql
 use db_pelatihan;
 ```
