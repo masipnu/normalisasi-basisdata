@@ -31,6 +31,7 @@
 ---
 
 **Memulai Pekerjaan**
+
 Aktifkan MySQL/ Mariadb server, lalu buka HeidiSQL atau sejenisnya.
 
 ![](images/img0.png)
@@ -80,6 +81,7 @@ select * from pelatihan;
 ![](images/img1.png)
 
 **Masalah:**
+
 Kolom Kelas, Instruktur, dan Jadwal mengandung multiple values → belum atomic (belum bentuk 1NF). 
 
 ---
@@ -127,6 +129,7 @@ select * from 1nf_pelatihan;
 ---
 
 **Normalisasi 2NF**
+
 Hilangkan *partial dependency* → bagi tabel agar setiap atribut non-kunci hanya tergantung pada seluruh *primary key*.
 
 Membuat tabel `2nf_peserta`
@@ -219,6 +222,7 @@ select * from 2nf_peserta_kelas;
 ![](images/img5.png)
 
 **Test Query-1**
+
 Mengambil data join 3 tabel secara penuh
 ```sql
 SELECT * FROM 2nf_peserta a
@@ -231,6 +235,7 @@ ORDER by a.id_peserta
 ![](images/img6.png)
 
 **Test Query-2**
+
 Mengambil data join 3 tabel dan dikelompokkan `nama_kelas` nya berdasarkan `id_peserta`
 ```sql
 SELECT a.id_peserta,a.nama_peserta,a.no_hp,a.alamat,
