@@ -1,6 +1,6 @@
 <!-- ![](images/img.png) -->
 ![](images/bcnf.webp)
-### Praktik Normalisasi Database
+### Praktik Normalisasi Basis Data
 ---
 
 **Software yang dibutuhkan** :
