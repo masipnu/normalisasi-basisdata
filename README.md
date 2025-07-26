@@ -1,3 +1,24 @@
+<!-- HTML Meta Tags -->
+<title>Praktik Singkat - Normalisasi Basis Data</title>
+<meta name="description" content="Praktik singkat normalisasi basis data 1NF, 2NF, 3NF">
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://masipnu.github.io/normalisasi-basisdata/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Praktik Singkat - Normalisasi Basis Data">
+<meta property="og:description" content="Praktik singkat normalisasi basis data 1NF, 2NF, 3NF">
+<meta property="og:image" content="https://opengraph.b-cdn.net/production/images/ccd5f219-64d7-48a1-b894-8f09c6601350.png?token=CcrWMvb_ODQyu2vRn-pakcPUr_5cAzj0sQ44P_51T-U&height=302&width=651&expires=33289543126">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:domain" content="masipnu.github.io">
+<meta property="twitter:url" content="https://masipnu.github.io/normalisasi-basisdata/">
+<meta name="twitter:title" content="Praktik Singkat - Normalisasi Basis Data">
+<meta name="twitter:description" content="Praktik singkat normalisasi basis data 1NF, 2NF, 3NF">
+<meta name="twitter:image" content="https://opengraph.b-cdn.net/production/images/ccd5f219-64d7-48a1-b894-8f09c6601350.png?token=CcrWMvb_ODQyu2vRn-pakcPUr_5cAzj0sQ44P_51T-U&height=302&width=651&expires=33289543126">
+
+<!-- Meta Tags Generated via https://www.opengraph.xyz -->
+
 <!-- ![](images/img.png) -->
 ![](images/bcnf.webp)
 ### Praktik Normalisasi Basis Data
